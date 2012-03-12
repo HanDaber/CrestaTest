@@ -1,0 +1,190 @@
+<root>
+	<test_cases>
+
+		
+		<test_case> 
+			<number>1</number>
+			<capture>protv.ts</capture>
+			<standard>ntsc</standard>
+			<country_code>us</country_code>
+			<channel_number>18</channel_number>
+			<minimum_expected_SNR>20</minimum_expected_SNR>
+			<seconds_to_run_player>30</seconds_to_run_player>
+			<max_scanning_time>900</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<!--test_case> 
+			<number>2</number>
+			<capture>atsc.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<minimum_expected_SNR>20</minimum_expected_SNR>
+			<seconds_to_run_player>30</seconds_to_run_player>
+			<max_scanning_time>900</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+<!--
+		<test_case> 
+			<number>1</number>
+			<capture>protv.ts</capture>
+			<standard>pal</standard>
+			<country_code>us</country_code>
+			<channel_number>14</channel_number>
+			<frequency>473</frequency>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-10</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>1</number>
+			<capture>dvbt.ts</capture>
+			<standard>dvbt</standard>
+			<country_code>tw</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>20</minimum_expected_SNR>
+			<seconds_to_run_player>300</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>2</number>
+			<capture>atsc.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>5</channel_number>
+			<minimum_expected_SNR>20</minimum_expected_SNR>
+			<seconds_to_run_player>300</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+		<test_case> 
+			<number>3</number>
+			<capture>qam.ts</capture>
+			<standard>qam</standard>
+			<country_code>us</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>20</minimum_expected_SNR>
+			<seconds_to_run_player>300</seconds_to_run_player>
+			<max_scanning_time>2400</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>4</number>
+			<capture>protv.ts</capture>
+			<standard>pal</standard>
+			<country_code>ro</country_code>
+			<channel_number>2</channel_number>
+			<frequency>62</frequency>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-10</sg_out_level>
+		</test_case>
+
+
+		<test_case> 
+			<number>3</number>
+			<capture>protv.ts</capture>
+			<standard>dvbt</standard>
+			<country_code>tw</country_code>
+			<channel_number>4</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>4</number>
+			<capture>protv.ts</capture>
+			<standard>dvbt</standard>
+			<country_code>tw</country_code>
+			<channel_number>5</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-10</sg_out_level>
+		</test_case>		
+		<test_case> 
+		
+		<number>5</number>
+			<capture>protv.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		<test_case> 
+			<number>6</number>
+			<capture>protv.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>3</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		<test_case> 
+			<number>7</number>
+			<capture>protv.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>4</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+
+		<test_case> 
+			<number>9</number>
+			<capture>protv.ts</capture>
+			<standard>qam</standard>
+			<country_code>us</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20</seconds_to_run_player>
+			<max_scanning_time>2400</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+		<test_case> 
+			<number>10</number>
+			<capture>protv.ts</capture>
+			<standard>pal</standard>
+			<country_code>ro</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20<seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>11</number>
+			<capture>protv.ts</capture>
+			<standard>ntsc</standard>
+			<country_code>us</country_code>
+			<channel_number>2</channel_number>
+			<minimum_expected_SNR>15</minimum_expected_SNR>
+			<seconds_to_run_player>20<seconds_to_run_player>
+			<max_scanning_time>1200</max_scanning_time>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+-->
+	</test_cases>
+	
+</root>

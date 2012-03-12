@@ -1,0 +1,41 @@
+<root>
+	<setup>
+		<dir></dir>
+		<name>7za.exe</name>
+	</setup>
+	
+	<zip_name>client_files.zip</zip_name>
+	<file>
+		<dir></dir>
+		<name>commands.cmd</name>
+	</file>
+	<file>
+		<dir>Scripts</dir>
+		<name>test_mce.pl</name>
+	</file>		
+	<file>
+		<dir>Modules</dir>
+		<name>Debug.pm</name>
+	</file>		
+	<file>
+		<dir>Modules</dir>
+		<name>Client.pm</name>
+	</file>
+	<file>
+		<dir>Modules</dir>
+		<name>Commands.pm</name>
+	</file>
+	<file>
+		<dir>Utilities</dir>
+		<name>devcon32.exe</name>
+	</file>
+	<!--file>
+		<dir>Utilities</dir>
+		<name>ControlApp.exe</name>
+	</file>
+	<file>
+		<dir>Utilities</dir>
+		<name>MediaCenterApplicationBkSetup.msi</name>
+	</file-->
+	
+</root>

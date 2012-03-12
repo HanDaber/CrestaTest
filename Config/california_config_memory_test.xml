@@ -1,0 +1,147 @@
+<test_suite>
+	<!-- 
+		* frequency and channel_number should be mutual exclusive, 
+	multiple values can be set for each
+		* channel number is only valid with country code
+		* channel_width and frequency can be used,
+	if you are sure about the config
+	-->
+	
+	<test_case number="1" standard="ntsc">
+		<country_code>us</country_code>
+		<channel_number>18</channel_number>
+		<sg_out_level>-20</sg_out_level>
+		<capture>none</capture>
+		<play_time_seconds>30</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	
+	<!--test_case number="2" standard="atsc">
+		<country_code>us</country_code>
+		<frequency>689</frequency>
+		<sg_out_level>-20</sg_out_level>
+		<channel_width>6</channel_width>
+		<capture>atsc.ts</capture>
+		<play_time_seconds>30</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	
+	
+	<!--test_case number="1" standard="atsc">
+		<country_code>us</country_code>
+		<frequency>689</frequency>
+		<sg_out_level>-10</sg_out_level>
+		<channel_width>6</channel_width>
+		<capture>atsc.ts</capture>
+		
+		<play_time_seconds>60</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	<!--test_case number="2" standard="dvbt">
+		<channel_width>8</channel_width>
+		<frequency>381 63</frequency>
+		<sg_out_level>-15</sg_out_level>
+		<capture>dvbt.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	<test_case number="3" standard="qam">
+		<country_code>us</country_code>
+		<frequency>63</frequency>
+		<sg_out_level>-20</sg_out_level>
+		<capture>qam.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	<test_case number="4" standard="pal">
+		<country_code>ro</country_code>
+		<frequency>178</frequency>
+		<sg_out_level>-15</sg_out_level>
+		<capture>none</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		
+		<program_tested>BDA</program_tested>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>	
+	<test_case number="6" standard="atsc">
+		<country_code>US</country_code>
+		<channel_number>50</channel_number>
+		<sg_out_level>-15</sg_out_level>
+		<capture>atsc.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		
+		<program_tested>BDA</program_tested>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>	
+	<test_case number="7" standard="qam">
+		<country_code>US</country_code>
+		<channel_number>50</channel_number>
+		<sg_out_level>-20</sg_out_level>
+		<capture>qam.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		
+		<program_tested>BDA</program_tested>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>	
+	<test_case number="8" standard="dvbt">
+		<country_code>RO</country_code>
+		<channel_number>49</channel_number>
+		<sg_out_level>-15</sg_out_level>
+		<capture>dvbt.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		
+		<program_tested>BDA</program_tested>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case>
+	<test_case number="9" standard="qam">
+		<country_code>US</country_code>
+		<channel_number>3</channel_number>
+		<sg_out_level>-15</sg_out_level>
+		<capture>qam.ts</capture>
+		
+		<play_time_seconds>1800</play_time_seconds>
+		<memory_samplnig_f_seconds>5</memory_samplnig_f_seconds>
+		<runs_count>1</runs_count>
+		
+		<program_tested>BDA</program_tested>
+		<mode>auto</mode>
+		<recorded_data>memory-CPU</recorded_data>
+	</test_case-->
+
+</test_suite>

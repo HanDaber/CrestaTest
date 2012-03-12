@@ -1,0 +1,56 @@
+<root>
+	<!-- Clients -->	
+	<clients files_dir="cresta_test">
+		<client>
+			<id>1</id>
+			<name>HP_INTEL_PCI</name>
+			<ip>10.10.10.173</ip>
+			<username>crestatest</username>
+		</client>	
+		
+		<client>
+			<id>2</id>
+			<name>HP_AMD_PCI</name>
+			<ip>10.10.10.207</ip>
+			<username>hpdemo</username>
+		</client>	
+		
+		<client>
+			<id>3</id>
+			<name>DT_2_USB</name>
+			<ip>10.10.10.210</ip>
+			<username>crestatest</username>
+		</client>		
+
+		<client>
+			<id>4</id>
+			<name>DL_i7_SR</name>
+			<ip>10.10.10.206</ip>
+			<username>crestatest</username>
+		</client>			
+	</clients>
+	
+	<!-- Servers -->	
+	<servers files_dir="cresta_test">
+		<server>
+			<id>1</id>
+			<name>Server_SG</name>
+			<ip>10.10.10.212</ip>
+			<username>developer1</username>
+		</server>		
+		<!--server>
+			<id>2</id>
+			<name>Server_fake</name>
+			<ip>10.10.10.219</ip>
+			<username>developer2</username>
+		</server-->			
+    </servers>
+
+	<!-- Monitor -->
+	<monitor files_dir="test_files">
+		<name>TEST_MONITOR</name>
+		<ip>10.10.10.167</ip>
+		<username>dhaber</username>
+	</monitor>
+	
+</root>

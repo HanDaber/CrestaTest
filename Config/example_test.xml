@@ -1,0 +1,12 @@
+<root>
+
+	<example_test>
+		<program>MCE</program>
+		<driver>178</driver>
+		<minutes>1</minutes>
+		<steps>	<!-- After driver has been installed and program is open -->
+			<step number="1">play</step>
+		</steps><!-- Program is closed -->
+	</example_test>
+
+</root>

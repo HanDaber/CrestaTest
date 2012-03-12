@@ -1,0 +1,62 @@
+<root>
+	<!-- Choose what actions to perform -->
+	<copy_files>1</copy_files>
+	<install_player>0</install_player>
+	<install_bda>0</install_bda>
+	<install_driversSources>0</install_driversSources>
+	<run_calibration>0</run_calibration>
+	<run_tests>1</run_tests>
+	<gather_logs>0</gather_logs>
+	<analize_logs>0</analize_logs>
+	<run_comparison>0</run_comparison>
+	
+	<!-- Tested kit, one of the following: Player, BDA, DriversSources (default:Player) -->
+	<tested_kit>DriversSources</tested_kit>
+	
+	<!-- Version needed for making a comparison -->
+	<reference_version>1.0.162</reference_version>
+	<!-- Current version, will overwrite results with same version number -->
+	<current_version>1.0.163</current_version>
+	<!-- Test cases -->
+	<tests> 
+
+		<test>
+			<name>SNR TESTS</name>
+			<test_main_perl_file_name>ExecuteSNRTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_snr_test.xml</test_config_file_name>
+		</test>
+		
+		<!--test>
+			<name>SMOKE TESTS</name>
+			<test_main_perl_file_name>ExecuteSmokeTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_smoke_test.xml</test_config_file_name>
+		</test>
+		
+		<test>
+			<name>MEMORY TESTS</name>
+			<test_main_perl_file_name>ExecuteMemoryTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_memory_test.xml</test_config_file_name>
+		</test>
+
+		
+		<!--
+		<test>
+			<name>SMOKE TESTS</name>
+			<test_main_perl_file_name>ExecuteSmokeTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_smoke_test.xml</test_config_file_name>
+		</test>
+		<test>
+			<name>MEMORY TESTS</name>
+			<test_main_perl_file_name>ExecuteMemoryTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_memory_test.xml</test_config_file_name>
+		</test>
+
+		<test>
+			<name>SNR TESTS</name>
+			<test_main_perl_file_name>ExecuteSNRTest.pl</test_main_perl_file_name>
+			<test_config_file_name>../ConfigurationReport/california_config_snr_test.xml</test_config_file_name>
+		</test>
+		-->
+	</tests>
+
+</root>

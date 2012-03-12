@@ -1,0 +1,84 @@
+<root>
+	
+	<clients>
+
+		<client>
+			<name>HP_AMD_PCI</name>
+			<ip>10.10.10.207</ip>
+			<username>hpdemo</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+		<client>
+			<name>HP_INTEL_PCI</name>
+			<ip>10.10.10.173</ip>
+			<username>crestatest</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>		
+		<!--client>
+			<name>DIABLO1_USB</name>
+			<ip>10.10.10.213</ip>
+			<username>crestatest</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+		<client>
+			<name>DIABLO2_USB</name>
+			<ip>10.10.10.210</ip>
+			<username>crestatest</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+		
+		
+	<!--
+
+		<client>
+			<name>CL_i5_64_USB</name>
+			<ip>10.10.10.219</ip>
+			<username>crestatest</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+
+		<client>
+			<name>CL_Quad_TDR</name>
+			<ip>192.168.116.166</ip>
+			<username>toltean</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>	
+		</client>
+		
+		<client>
+			<name>CL_i5_64_USB</name>
+			<ip>192.168.116.189</ip>
+			<username>tester</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+		<client>
+			<name>Client_Quad_181</name>
+			<ip>192.168.116.181</ip>
+			<username>cresta</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>	
+		</client>
+
+		<client>
+			<name>CL_i7_64_PCI</name>
+			<ip>192.168.116.163</ip>
+			<username>cresta</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</client>
+		-->
+	</clients>
+		
+	<servers>
+		<server>
+			<name>Server_SG</name>
+			<ip>10.10.10.212</ip>
+			<username>developer1</username>
+			<pc_farm_dir>c:/TestCrestaPlayer</pc_farm_dir>
+		</server>
+		<!--server>
+			<name>Server_SG_178</name>
+			<ip>fake</ip>
+			<username>cresta1</username>
+			<pc_farm_dir>c:/TestCrestaPlayer1</pc_farm_dir>
+		</server-->
+    </servers>
+	
+</root>

@@ -1,0 +1,116 @@
+<root>
+
+<!--
+	<default_frequencies>57.00 	 63.00 	 69.00 	 79.00 	 85.00 	 77.00 	183.00 	189.00 	195.00 	201.00 	207.00
+		213.00 	473.00	479.00	485.00	491.00	497.00	503.00	509.00	515.00	521.00	527.00
+		533.00	539.00	545.00	551.00	557.00	563.00	569.00	575.00	581.00	587.00	593.00
+		599.00	605.00	611.00	617.00	623.00	629.00	635.00	641.00	647.00	653.00	659.00
+		665.00	671.00	677.00	683.00	689.00	695.00	701.00	707.00	713.00	719.00	725.00
+		731.00	737.00	743.00	749.00	755.00	761.00	767.00	773.00	779.00	785.00	791.00
+		797.00 803.00</default_frequencies>
+-->
+
+	<default_frequencies>
+		473.00 	 63.00 	 69.00 	79.00	85.00	183.00 	189.00 	195.00 	201.00	207.00
+	</default_frequencies>
+
+	<test_cases>
+
+				
+		<test_case> 
+			<number>1</number>
+			<capture>ntsc.ts</capture>
+			<standard>ntsc</standard>
+			<country_code>us</country_code>
+			<channel_number>18</channel_number>
+			<channel_play_time>30</channel_play_time>
+			<plot_use_time_ref>1</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+		<!--test_case> 
+			<number>2</number>
+			<capture>atsc.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<channel_play_time>30</channel_play_time>
+			<plot_use_time_ref>1</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case-->		
+		
+	</test_cases>
+			
+			
+			
+			
+			
+			
+			
+	<!--
+				<frequency_list_optional>562</frequency_list_optional>
+	
+	
+		<test_case> 
+			<number>1</number>
+			<capture>qam.ts</capture>
+			<standard>qam</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<channel_play_time>120</channel_play_time>
+			<frequency_list_optional>381.00</frequency_list_optional>
+			<plot_use_time_ref>1</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+		<test_case> 
+			<number>2</number>
+			<capture>dvbt.ts</capture>
+			<standard>dvbt</standard>
+			<country_code>ro</country_code>
+			<channel_number>3</channel_number>
+			<channel_play_time>60</channel_play_time>
+			<frequency_list_optional>562</frequency_list_optional>
+			<plot_use_time_ref>1</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+		<test_case> 
+			<number>3</number>
+			<capture>atsc.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<channel_play_time>120</channel_play_time>
+			<frequency_list_optional>189.00</frequency_list_optional>
+			<plot_use_time_ref>1</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+
+	
+		<test_case> 
+			<number>3</number>
+			<capture>atsc.ts</capture>
+			<standard>atsc</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<channel_play_time>30</channel_play_time>
+			<frequency_list_optional>69.00 	79.00	85.00 	195.00 	201.00</frequency_list_optional>
+			<plot_use_time_ref>0</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+		<test_case> 
+			<number>5</number>
+			<capture>qam.ts</capture>
+			<standard>qam</standard>
+			<country_code>us</country_code>
+			<channel_number>50</channel_number>
+			<channel_play_time>30</channel_play_time>
+			<frequency_list_optional>69.00 	79.00	85.00	183.00 	189.00 	195.00 	201.00</frequency_list_optional>
+			<plot_use_time_ref>0</plot_use_time_ref>
+			<sg_out_level>-20</sg_out_level>
+		</test_case>
+		
+	-->
+</root>
